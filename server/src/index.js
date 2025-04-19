@@ -20,7 +20,7 @@ app.use(express.json({limit: "10mb"}));
 app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 app.use(cookesParser());
 app.use(cors({
-  origin: process.env.CLIENT_URL,
+  origin: "http://localhost:5173",
   credentials: true,
 }))
 
