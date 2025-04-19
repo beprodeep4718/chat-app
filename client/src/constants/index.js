@@ -10,6 +10,7 @@ export const THEMES = [
     "cyberpunk",
     "valentine",
     "halloween",
+    "abyss",
     "garden",
     "forest",
     "aqua",
